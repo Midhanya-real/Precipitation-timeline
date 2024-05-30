@@ -14,8 +14,8 @@ out_service = OutputService(data)
 print(out_service.data[2])
 out_service.output()
 
-# io_service.output_for_num(data)
-# io_service.output_for_string(data)
+io_service.output_for_num(data)
+io_service.output_for_string(data)
 
 files_count = fc_service.count_files()
 print(files_count)
